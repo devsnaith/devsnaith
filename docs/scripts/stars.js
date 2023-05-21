@@ -7,12 +7,12 @@ points[points.length] = {
     'group': "Social Media",
     'href': [
         {
-            'icon': "/docs/images/twitter.png",
+            'icon': "/devsnaith/images/twitter.png",
             'title': "@DevSnaith | Twitter",
             'url': "https://twitter.com/devsnaith"
         },
         {
-            'icon': "/docs/images/github_icon.png",
+            'icon': "/devsnaith/images/github_icon.png",
             'title': "DevSnaith | Github",
             'url': "https://github.com/DevSnaith"
         }
@@ -29,7 +29,7 @@ points[points.length] = {
     'group': "Bad Projects",
     'href': [
         {
-            'icon': "/docs/images/github_icon.png",
+            'icon': "/devsnaith/images/github_icon.png",
             'title': "JColorPicker | Github",
             'url': "https://github.com/DevSnaith/JColorPicker"
         }
