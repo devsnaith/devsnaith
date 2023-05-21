@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#device {
+    background-color: rgb(104, 126, 250);
+    position: relative;
+
+    border: 6px solid rgb(168, 181, 255);
+    border-right-width: 1px;
+    border-bottom-width: 4px;
+    border-top-width: 1px;
+
+    width: 16em;
+}
+
+#device::before {
+    content: "DSnaith Advance";
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+
+    left: 12px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding:  2px 6px;
+
+    border: 1px solid black;
+
+    text-shadow: 1px 1px 1px black;
+    font-size: 0.8em;
+
+    z-index: 9;
+}
+
+#inside {
+    /* background-color: red; */
+
+    border: 1px solid black;
+    border-radius: 2px;
+
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    padding-top: 32px;
+}
+
+#screen {
+    background-color: #000000;
+
+    max-width: 14em;
+    max-height: calc(14em / 16 * 9);;
+
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    border-radius: 4px;
+}
+
+#controllers {
+    background-color: rgb(168, 181, 255, 0.4);
+    border: 0 solid black;
+
+    border-top-width: 1px;
+
+    margin-top: 1em;
+    width: 100%;    
+}
+
+#control {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.btn {
+    background-color: rgb(150, 166, 255);
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 4px;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    width: 3em;
+    height: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    padding: 12px;
+
+    font-family: monospace;
+    font-weight: bold;
+
+    text-decoration: none;
+    position: relative;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+}
+
+#connect {
+    background-color: #2F2F3D;
+    border: 3px solid rgba(0, 0, 0, 0.22);
+    border-radius: 4px;
+
+    /* height: 4em; */
+    margin: 0.5em;
+
+    position: relative;
+    padding-top: 2em;
+
+    /* height: ; */
+
+    transition: all 0.7s;
+}
+
+#connect_header {
+    background-color: rgba(0, 0, 0, 0.22);
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0.5em;
+}
+
+.connect_item {
+    background-color: rgba(0, 0, 0, 0.22);
+    border-radius: 4px;
+    margin: 0.5em;
+    padding: 0.5em;
+
+    font-family: monospace;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.connect_item > img {
+    max-height: 20px;
+    margin-inline: 0.5em;
+}
+
+.hide_item {
+    display: none;
+    height: 0;
+}

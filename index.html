@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- initialize favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/favicon/site.webmanifest">
+
+        <!-- link stylesheet -->
+        <link rel="stylesheet" href="/style/devsnaith.css">
+
+        <title>@DevSnaith</title>
+    </head>
+    <body>
+        <main id="content">
+            <!-- inisitlize device -->
+            <div id="device">
+                <div id="inside">
+                    <canvas id="screen"></canvas>
+                    <div id="controllers">
+                        <section id="control" style="padding-bottom: 0.5em;"> 
+                            <div class="btn m_btn" onclick="action(this)" href="#">L</div>
+                            <div class="btn m_btn" onclick="action(this)" href="#">R</div>
+                            <div class="btn m_btn" onclick="action(this)" href="#">UP</div>
+                            <div class="btn m_btn" onclick="action(this)" href="#">D</div>
+                        </section>
+                        <div id="connect" class="hide_item">
+                            <div id="connect_header">
+                                <code id="connect_header_group">Social Media</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="/scripts/sjglib.js"></script>
+    <script src="/scripts/stars.js"></script>
+</html>
