@@ -2,9 +2,9 @@
 
 ---
 
-### Hello people 👋
+### Hey people, 👋
 
-I am a person who loves computers and everything related to them.<br>Thank you for visiting my ~~profile~~ home 🤍
+I'm a person who loves computers and everything related to it.<br>Thx for visiting <mark>my <!-- ~~profile~~ -->home 🤍</mark>
 
 ### ⭐ Stuff I enjoyed working on
 - 🔦  [Lumière](https://github.com/devsnaith/lumiere-server) A lightweight & easy to use HTTP server. 
